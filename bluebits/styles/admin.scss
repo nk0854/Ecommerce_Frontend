@@ -1,0 +1,23 @@
+// Base Config
+@import '~normalize.css/normalize.css';
+//Base
+@import './base/colors.scss';
+@import './base/fonts.scss';
+@import './base/mixins.scss';
+
+//Libraries
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/lara-light-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
+@import '~primeflex/primeflex.scss';
+@import './base/configuration.scss';
+
+
+//Shared
+@import './apps/admin/shell.scss';
+
+// @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css');
+// @import '~bootstrap/scss/bootstrap.scss';
+
+//Libs
+@import './libs/ui/ui.scss';
